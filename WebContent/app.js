@@ -14,3 +14,6 @@ if(canvas)
 {
 	canvas.addEventListener("mousemove",onMousemove);
 }
+
+var goodsimgElement = document.getElementById("goodsImg");
+goodsimgElement.src = "../images/goods/img_soldout.png";
